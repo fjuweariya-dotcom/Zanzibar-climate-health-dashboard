@@ -310,8 +310,7 @@ elif page == "🦠 Disease Analysis":
             peak = df[df["year"]==year]["cholera_cases"].max()
             peak_date = df[(df["year"]==year) &
                           (df["cholera_cases"]==peak)]["date"].values[0]
-            ax.annotate(f"{year}
-({peak} cases)",
+            ax.annotate(f"{year} ({peak} cases)",
                         xy=(peak_date, peak), xytext=(0, 15),
                         textcoords="offset points", ha="center",
                         fontsize=8, color="red",
