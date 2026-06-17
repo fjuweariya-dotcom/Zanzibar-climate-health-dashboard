@@ -408,7 +408,7 @@ elif page == "🗺️ District Risk Map":
                     bbox=dict(boxstyle="round,pad=0.15",
                               fc="white", alpha=0.6, lw=0))
 
-    ax.text(39.28, -5.70, "UNGUJA
+    ax.text(39.28, -5.70, "UNGUJA"
 ISLAND", fontsize=10,
             color="#2c3e50", fontweight="bold", ha="center", style="italic")
     ax.text(39.78, -4.72, "PEMBA
