@@ -433,7 +433,7 @@ elif page == "🗺️ District Risk Map":
         return "background-color: #2ecc7133; color: #2ecc71"
 
     st.dataframe(
-        display.style.applymap(color_category, subset=["Category"]),
+        display.style.map(color_category, subset=["Category"]),
         use_container_width=True
     )
 
