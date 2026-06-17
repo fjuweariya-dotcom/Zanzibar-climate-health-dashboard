@@ -231,9 +231,7 @@ if page == "📊 Overview Dashboard":
     st.subheader("🔑 Key Findings")
     f1, f2, f3 = st.columns(3)
     with f1:
-        st.info("🌧️ **Rainfall Lag**")
-
-2-month lagged rainfall is the #1 predictor of cholera incidence in Zanzibar")
+        st.info("🌧️ **Rainfall Lag** 2-month lagged rainfall is the #1 predictor of cholera incidence in Zanzibar")
     with f2:
         st.warning("🌡️ **Heat Index** Heat + humidity combined drives risk — not temperature alone")
     with f3:
