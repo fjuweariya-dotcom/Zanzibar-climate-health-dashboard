@@ -1,0 +1,197 @@
+date,year,month,malaria_cases,malaria_source,malaria_real,malaria_incidence
+2010-01-01,2010,1,291,WHO AFRO — near-elimination program,False,2.425
+2010-02-01,2010,2,277,WHO AFRO — near-elimination program,False,2.3083
+2010-03-01,2010,3,158,WHO AFRO — near-elimination program,False,1.3167
+2010-04-01,2010,4,128,WHO AFRO — near-elimination program,False,1.0667
+2010-05-01,2010,5,115,WHO AFRO — near-elimination program,False,0.9583
+2010-06-01,2010,6,92,WHO AFRO — near-elimination program,False,0.7667
+2010-07-01,2010,7,89,WHO AFRO — near-elimination program,False,0.7417
+2010-08-01,2010,8,136,WHO AFRO — near-elimination program,False,1.1333
+2010-09-01,2010,9,179,WHO AFRO — near-elimination program,False,1.4917
+2010-10-01,2010,10,236,WHO AFRO — near-elimination program,False,1.9667
+2010-11-01,2010,11,310,WHO AFRO — near-elimination program,False,2.5833
+2010-12-01,2010,12,529,WHO AFRO — near-elimination program,False,4.4083
+2011-01-01,2011,1,259,WHO AFRO — continued decline,False,2.0972
+2011-02-01,2011,2,186,WHO AFRO — continued decline,False,1.5061
+2011-03-01,2011,3,111,WHO AFRO — continued decline,False,0.8988
+2011-04-01,2011,4,92,WHO AFRO — continued decline,False,0.7449
+2011-05-01,2011,5,95,WHO AFRO — continued decline,False,0.7692
+2011-06-01,2011,6,80,WHO AFRO — continued decline,False,0.6478
+2011-07-01,2011,7,79,WHO AFRO — continued decline,False,0.6397
+2011-08-01,2011,8,95,WHO AFRO — continued decline,False,0.7692
+2011-09-01,2011,9,144,WHO AFRO — continued decline,False,1.166
+2011-10-01,2011,10,164,WHO AFRO — continued decline,False,1.3279
+2011-11-01,2011,11,266,WHO AFRO — continued decline,False,2.1538
+2011-12-01,2011,12,368,WHO AFRO — continued decline,False,2.9798
+2012-01-01,2012,1,214,WHO AFRO — MCN system started Aug 2012,False,1.685
+2012-02-01,2012,2,192,WHO AFRO — MCN system started Aug 2012,False,1.5118
+2012-03-01,2012,3,100,WHO AFRO — MCN system started Aug 2012,False,0.7874
+2012-04-01,2012,4,90,WHO AFRO — MCN system started Aug 2012,False,0.7087
+2012-05-01,2012,5,92,WHO AFRO — MCN system started Aug 2012,False,0.7244
+2012-06-01,2012,6,64,WHO AFRO — MCN system started Aug 2012,False,0.5039
+2012-07-01,2012,7,74,WHO AFRO — MCN system started Aug 2012,False,0.5827
+2012-08-01,2012,8,83,WHO AFRO — MCN system started Aug 2012,False,0.6535
+2012-09-01,2012,9,113,WHO AFRO — MCN system started Aug 2012,False,0.8898
+2012-10-01,2012,10,179,WHO AFRO — MCN system started Aug 2012,False,1.4094
+2012-11-01,2012,11,280,WHO AFRO — MCN system started Aug 2012,False,2.2047
+2012-12-01,2012,12,367,WHO AFRO — MCN system started Aug 2012,False,2.8898
+2013-01-01,2013,1,172,WHO AFRO — continued decline,False,1.318
+2013-02-01,2013,2,136,WHO AFRO — continued decline,False,1.0421
+2013-03-01,2013,3,94,WHO AFRO — continued decline,False,0.7203
+2013-04-01,2013,4,74,WHO AFRO — continued decline,False,0.567
+2013-05-01,2013,5,68,WHO AFRO — continued decline,False,0.5211
+2013-06-01,2013,6,60,WHO AFRO — continued decline,False,0.4598
+2013-07-01,2013,7,53,WHO AFRO — continued decline,False,0.4061
+2013-08-01,2013,8,82,WHO AFRO — continued decline,False,0.6284
+2013-09-01,2013,9,99,WHO AFRO — continued decline,False,0.7586
+2013-10-01,2013,10,140,WHO AFRO — continued decline,False,1.0728
+2013-11-01,2013,11,201,WHO AFRO — continued decline,False,1.5402
+2013-12-01,2013,12,286,WHO AFRO — continued decline,False,2.1916
+2014-01-01,2014,1,146,WHO AFRO — near-elimination achieved,False,1.0896
+2014-02-01,2014,2,111,WHO AFRO — near-elimination achieved,False,0.8284
+2014-03-01,2014,3,80,WHO AFRO — near-elimination achieved,False,0.597
+2014-04-01,2014,4,64,WHO AFRO — near-elimination achieved,False,0.4776
+2014-05-01,2014,5,66,WHO AFRO — near-elimination achieved,False,0.4925
+2014-06-01,2014,6,53,WHO AFRO — near-elimination achieved,False,0.3955
+2014-07-01,2014,7,49,WHO AFRO — near-elimination achieved,False,0.3657
+2014-08-01,2014,8,66,WHO AFRO — near-elimination achieved,False,0.4925
+2014-09-01,2014,9,76,WHO AFRO — near-elimination achieved,False,0.5672
+2014-10-01,2014,10,100,WHO AFRO — near-elimination achieved,False,0.7463
+2014-11-01,2014,11,150,WHO AFRO — near-elimination achieved,False,1.1194
+2014-12-01,2014,12,218,WHO AFRO — near-elimination achieved,False,1.6269
+2015-01-01,2015,1,505,Abbas et al. 2023 — MCN system,True,3.6727
+2015-02-01,2015,2,409,Abbas et al. 2023 — MCN system,True,2.9745
+2015-03-01,2015,3,280,Abbas et al. 2023 — MCN system,True,2.0364
+2015-04-01,2015,4,209,Abbas et al. 2023 — MCN system,True,1.52
+2015-05-01,2015,5,205,Abbas et al. 2023 — MCN system,True,1.4909
+2015-06-01,2015,6,175,Abbas et al. 2023 — MCN system,True,1.2727
+2015-07-01,2015,7,158,Abbas et al. 2023 — MCN system,True,1.1491
+2015-08-01,2015,8,232,Abbas et al. 2023 — MCN system,True,1.6873
+2015-09-01,2015,9,272,Abbas et al. 2023 — MCN system,True,1.9782
+2015-10-01,2015,10,435,Abbas et al. 2023 — MCN system,True,3.1636
+2015-11-01,2015,11,645,Abbas et al. 2023 — MCN system,True,4.6909
+2015-12-01,2015,12,762,Abbas et al. 2023 — MCN system,True,5.5418
+2016-01-01,2016,1,408,Abbas et al. 2023 — MCN system,True,2.8936
+2016-02-01,2016,2,415,Abbas et al. 2023 — MCN system,True,2.9433
+2016-03-01,2016,3,243,Abbas et al. 2023 — MCN system,True,1.7234
+2016-04-01,2016,4,203,Abbas et al. 2023 — MCN system,True,1.4397
+2016-05-01,2016,5,205,Abbas et al. 2023 — MCN system,True,1.4539
+2016-06-01,2016,6,138,Abbas et al. 2023 — MCN system,True,0.9787
+2016-07-01,2016,7,149,Abbas et al. 2023 — MCN system,True,1.0567
+2016-08-01,2016,8,175,Abbas et al. 2023 — MCN system,True,1.2411
+2016-09-01,2016,9,293,Abbas et al. 2023 — MCN system,True,2.078
+2016-10-01,2016,10,357,Abbas et al. 2023 — MCN system,True,2.5319
+2016-11-01,2016,11,518,Abbas et al. 2023 — MCN system,True,3.6738
+2016-12-01,2016,12,656,Abbas et al. 2023 — MCN system,True,4.6525
+2017-01-01,2017,1,487,Abbas et al. 2023 — MCN system,True,3.3702
+2017-02-01,2017,2,407,Abbas et al. 2023 — MCN system,True,2.8166
+2017-03-01,2017,3,269,Abbas et al. 2023 — MCN system,True,1.8616
+2017-04-01,2017,4,220,Abbas et al. 2023 — MCN system,True,1.5225
+2017-05-01,2017,5,232,Abbas et al. 2023 — MCN system,True,1.6055
+2017-06-01,2017,6,169,Abbas et al. 2023 — MCN system,True,1.1696
+2017-07-01,2017,7,155,Abbas et al. 2023 — MCN system,True,1.0727
+2017-08-01,2017,8,223,Abbas et al. 2023 — MCN system,True,1.5433
+2017-09-01,2017,9,316,Abbas et al. 2023 — MCN system,True,2.1869
+2017-10-01,2017,10,388,Abbas et al. 2023 — MCN system,True,2.6851
+2017-11-01,2017,11,634,Abbas et al. 2023 — MCN system,True,4.3875
+2017-12-01,2017,12,807,Abbas et al. 2023 — MCN system,True,5.5848
+2018-01-01,2018,1,663,Abbas et al. 2023 — MCN system,True,4.4797
+2018-02-01,2018,2,540,Abbas et al. 2023 — MCN system,True,3.6486
+2018-03-01,2018,3,292,Abbas et al. 2023 — MCN system,True,1.973
+2018-04-01,2018,4,249,Abbas et al. 2023 — MCN system,True,1.6824
+2018-05-01,2018,5,244,Abbas et al. 2023 — MCN system,True,1.6486
+2018-06-01,2018,6,227,Abbas et al. 2023 — MCN system,True,1.5338
+2018-07-01,2018,7,210,Abbas et al. 2023 — MCN system,True,1.4189
+2018-08-01,2018,8,275,Abbas et al. 2023 — MCN system,True,1.8581
+2018-09-01,2018,9,422,Abbas et al. 2023 — MCN system,True,2.8514
+2018-10-01,2018,10,465,Abbas et al. 2023 — MCN system,True,3.1419
+2018-11-01,2018,11,753,Abbas et al. 2023 — MCN system,True,5.0878
+2018-12-01,2018,12,1108,Abbas et al. 2023 — MCN system,True,7.4865
+2019-01-01,2019,1,759,Abbas et al. 2023 — MCN system,True,5.0099
+2019-02-01,2019,2,608,Abbas et al. 2023 — MCN system,True,4.0132
+2019-03-01,2019,3,385,Abbas et al. 2023 — MCN system,True,2.5413
+2019-04-01,2019,4,311,Abbas et al. 2023 — MCN system,True,2.0528
+2019-05-01,2019,5,373,Abbas et al. 2023 — MCN system,True,2.462
+2019-06-01,2019,6,291,Abbas et al. 2023 — MCN system,True,1.9208
+2019-07-01,2019,7,279,Abbas et al. 2023 — MCN system,True,1.8416
+2019-08-01,2019,8,368,Abbas et al. 2023 — MCN system,True,2.429
+2019-09-01,2019,9,508,Abbas et al. 2023 — MCN system,True,3.3531
+2019-10-01,2019,10,563,Abbas et al. 2023 — MCN system,True,3.7162
+2019-11-01,2019,11,1036,Abbas et al. 2023 — MCN system,True,6.8383
+2019-12-01,2019,12,1298,Abbas et al. 2023 — MCN system,True,8.5677
+2020-01-01,2020,1,860,Abbas et al. 2023 — MCN system,True,5.5484
+2020-02-01,2020,2,731,Abbas et al. 2023 — MCN system,True,4.7161
+2020-03-01,2020,3,383,Abbas et al. 2023 — MCN system,True,2.471
+2020-04-01,2020,4,303,Abbas et al. 2023 — MCN system,True,1.9548
+2020-05-01,2020,5,312,Abbas et al. 2023 — MCN system,True,2.0129
+2020-06-01,2020,6,262,Abbas et al. 2023 — MCN system,True,1.6903
+2020-07-01,2020,7,288,Abbas et al. 2023 — MCN system,True,1.8581
+2020-08-01,2020,8,363,Abbas et al. 2023 — MCN system,True,2.3419
+2020-09-01,2020,9,412,Abbas et al. 2023 — MCN system,True,2.6581
+2020-10-01,2020,10,603,Abbas et al. 2023 — MCN system,True,3.8903
+2020-11-01,2020,11,916,Abbas et al. 2023 — MCN system,True,5.9097
+2020-12-01,2020,12,1184,Abbas et al. 2023 — MCN system,True,7.6387
+2021-01-01,2021,1,349,WHO AFRO 2022 — below 1% prevalence,False,2.2019
+2021-02-01,2021,2,308,WHO AFRO 2022 — below 1% prevalence,False,1.9432
+2021-03-01,2021,3,212,WHO AFRO 2022 — below 1% prevalence,False,1.3375
+2021-04-01,2021,4,153,WHO AFRO 2022 — below 1% prevalence,False,0.9653
+2021-05-01,2021,5,161,WHO AFRO 2022 — below 1% prevalence,False,1.0158
+2021-06-01,2021,6,134,WHO AFRO 2022 — below 1% prevalence,False,0.8454
+2021-07-01,2021,7,124,WHO AFRO 2022 — below 1% prevalence,False,0.7823
+2021-08-01,2021,8,178,WHO AFRO 2022 — below 1% prevalence,False,1.123
+2021-09-01,2021,9,249,WHO AFRO 2022 — below 1% prevalence,False,1.571
+2021-10-01,2021,10,271,WHO AFRO 2022 — below 1% prevalence,False,1.7098
+2021-11-01,2021,11,448,WHO AFRO 2022 — below 1% prevalence,False,2.8265
+2021-12-01,2021,12,579,WHO AFRO 2022 — below 1% prevalence,False,3.653
+2022-01-01,2022,1,319,WHO AFRO 2022 — below 1% prevalence,False,1.9691
+2022-02-01,2022,2,249,WHO AFRO 2022 — below 1% prevalence,False,1.537
+2022-03-01,2022,3,172,WHO AFRO 2022 — below 1% prevalence,False,1.0617
+2022-04-01,2022,4,140,WHO AFRO 2022 — below 1% prevalence,False,0.8642
+2022-05-01,2022,5,125,WHO AFRO 2022 — below 1% prevalence,False,0.7716
+2022-06-01,2022,6,106,WHO AFRO 2022 — below 1% prevalence,False,0.6543
+2022-07-01,2022,7,123,WHO AFRO 2022 — below 1% prevalence,False,0.7593
+2022-08-01,2022,8,131,WHO AFRO 2022 — below 1% prevalence,False,0.8086
+2022-09-01,2022,9,179,WHO AFRO 2022 — below 1% prevalence,False,1.1049
+2022-10-01,2022,10,251,WHO AFRO 2022 — below 1% prevalence,False,1.5494
+2022-11-01,2022,11,438,WHO AFRO 2022 — below 1% prevalence,False,2.7037
+2022-12-01,2022,12,499,WHO AFRO 2022 — below 1% prevalence,False,3.0802
+2023-01-01,2023,1,1062,Malaria Journal 2025 — pre-epidemic,True,6.4169
+2023-02-01,2023,2,903,Malaria Journal 2025 — pre-epidemic,True,5.4562
+2023-03-01,2023,3,478,Malaria Journal 2025 — pre-epidemic,True,2.8882
+2023-04-01,2023,4,448,Malaria Journal 2025 — pre-epidemic,True,2.7069
+2023-05-01,2023,5,412,Malaria Journal 2025 — pre-epidemic,True,2.4894
+2023-06-01,2023,6,351,Malaria Journal 2025 — pre-epidemic,True,2.1208
+2023-07-01,2023,7,351,Malaria Journal 2025 — pre-epidemic,True,2.1208
+2023-08-01,2023,8,429,Malaria Journal 2025 — pre-epidemic,True,2.5921
+2023-09-01,2023,9,536,Malaria Journal 2025 — pre-epidemic,True,3.2387
+2023-10-01,2023,10,827,Malaria Journal 2025 — pre-epidemic,True,4.997
+2023-11-01,2023,11,1139,Malaria Journal 2025 — pre-epidemic,True,6.8822
+2023-12-01,2023,12,1493,Malaria Journal 2025 — pre-epidemic,True,9.0211
+2024-01-01,2024,1,2517,Malaria Journal 2025 — epidemic Nov23–Mar24,True,14.8935
+2024-02-01,2024,2,2408,Malaria Journal 2025 — epidemic Nov23–Mar24,True,14.2485
+2024-03-01,2024,3,1474,Malaria Journal 2025 — epidemic Nov23–Mar24,True,8.7219
+2024-04-01,2024,4,1042,Malaria Journal 2025 — epidemic Nov23–Mar24,True,6.1657
+2024-05-01,2024,5,1182,Malaria Journal 2025 — epidemic Nov23–Mar24,True,6.9941
+2024-06-01,2024,6,881,Malaria Journal 2025 — epidemic Nov23–Mar24,True,5.213
+2024-07-01,2024,7,976,Malaria Journal 2025 — epidemic Nov23–Mar24,True,5.7751
+2024-08-01,2024,8,1086,Malaria Journal 2025 — epidemic Nov23–Mar24,True,6.426
+2024-09-01,2024,9,1725,Malaria Journal 2025 — epidemic Nov23–Mar24,True,10.2071
+2024-10-01,2024,10,2064,Malaria Journal 2025 — epidemic Nov23–Mar24,True,12.213
+2024-11-01,2024,11,3646,Malaria Journal 2025 — epidemic Nov23–Mar24,True,21.574
+2024-12-01,2024,12,4089,Malaria Journal 2025 — epidemic Nov23–Mar24,True,24.1953
+2025-01-01,2025,1,808,WHO estimate — post-epidemic decline,False,4.6841
+2025-02-01,2025,2,635,WHO estimate — post-epidemic decline,False,3.6812
+2025-03-01,2025,3,463,WHO estimate — post-epidemic decline,False,2.6841
+2025-04-01,2025,4,382,WHO estimate — post-epidemic decline,False,2.2145
+2025-05-01,2025,5,330,WHO estimate — post-epidemic decline,False,1.913
+2025-06-01,2025,6,291,WHO estimate — post-epidemic decline,False,1.687
+2025-07-01,2025,7,301,WHO estimate — post-epidemic decline,False,1.7449
+2025-08-01,2025,8,355,WHO estimate — post-epidemic decline,False,2.058
+2025-09-01,2025,9,493,WHO estimate — post-epidemic decline,False,2.858
+2025-10-01,2025,10,591,WHO estimate — post-epidemic decline,False,3.4261
+2025-11-01,2025,11,884,WHO estimate — post-epidemic decline,False,5.1246
+2025-12-01,2025,12,1457,WHO estimate — post-epidemic decline,False,8.4464
+2026-01-01,2026,1,329,WHO estimate — continuing decline,False,1.8693
+2026-02-01,2026,2,258,WHO estimate — continuing decline,False,1.4659
+2026-03-01,2026,3,144,WHO estimate — continuing decline,False,0.8182
+2026-04-01,2026,4,120,WHO estimate — continuing decline,False,0.6818
