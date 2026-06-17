@@ -1,4 +1,20 @@
 
+import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
+
+# Set academic publication visual standards
+plt.style.use('seaborn-v0_8-whitegrid' if 'seaborn-v0_8-whitegrid' in plt.style.available else 'default')
+plt.rcParams.update({
+    'font.size': 11,
+    'axes.labelsize': 12,
+    'axes.titlesize': 14,
+    'xtick.labelsize': 10,
+    'ytick.labelsize': 10,
+    'figure.autolayout': True,
+    'legend.frameon': True,
+    'legend.fancybox': True
+})
+
 import streamlit as st
 import pandas as pd
 import numpy as np
