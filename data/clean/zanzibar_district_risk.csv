@@ -1,0 +1,12 @@
+district,region,island,lat,lon,population,cholera_risk,heat_risk,water_access,sanitation,note,combined_risk,risk_category
+Mjini,Mjini Magharibi,Unguja,-6.165,39.202,250000,0.95,0.9,0.85,0.75,"Stone Town — highest density, oldest water pipes",0.672,High
+Magharibi,Mjini Magharibi,Unguja,-6.22,39.18,180000,0.75,0.7,0.7,0.65,"Peri-urban west, mixed water access",0.588,Medium
+Kaskazini A,Unguja Kaskazini,Unguja,-5.95,39.28,95000,0.5,0.52,0.65,0.6,"Rural north, moderate risk",0.46,Low
+Kaskazini B,Unguja Kaskazini,Unguja,-5.87,39.32,88000,0.48,0.5,0.62,0.58,"Rural northeast, moderate risk",0.456,Low
+Kusini,Unguja Kusini,Unguja,-6.38,39.33,120000,0.65,0.6,0.55,0.52,South Unguja — limited water infrastructure,0.572,Medium
+Kati,Unguja Kusini,Unguja,-6.27,39.25,75000,0.45,0.5,0.6,0.58,"Central Unguja, moderate access",0.448,Low
+Wete,Pemba Kaskazini,Pemba,-5.058,39.718,110000,0.6,0.55,0.5,0.48,"North Pemba hub, significant water access gaps",0.556,Medium
+Micheweni,Pemba Kaskazini,Pemba,-4.92,39.838,65000,0.4,0.45,0.65,0.6,Lowest risk — relatively better sanitation,0.402,Low
+Chake Chake,Pemba Kusini,Pemba,-5.247,39.76,95000,0.55,0.6,0.55,0.52,Pemba capital — urban heat exposure,0.532,Medium
+Mkoani,Pemba Kusini,Pemba,-5.35,39.68,80000,0.5,0.5,0.6,0.55,"South Pemba, moderate risk",0.473,Low
+Chakechake North,Pemba Kusini,Pemba,-5.15,39.74,40000,0.45,0.48,0.62,0.58,"Central Pemba, lower density",0.439,Low
