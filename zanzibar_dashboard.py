@@ -235,13 +235,9 @@ if page == "📊 Overview Dashboard":
 
 2-month lagged rainfall is the #1 predictor of cholera incidence in Zanzibar")
     with f2:
-        st.warning("🌡️ **Heat Index**
-
-Heat + humidity combined drives risk — not temperature alone")
+        st.warning("🌡️ **Heat Index** Heat + humidity combined drives risk — not temperature alone")
     with f3:
-        st.success("⏱️ **6-8 Week Window**
-
-Climate signals precede disease peaks — enabling advance warning")
+        st.success("⏱️ **6-8 Week Window** Climate signals precede disease peaks — enabling advance warning")
 
 # ════════════════════════════════════════════════════════════
 # PAGE 2: CLIMATE EXPLORER
