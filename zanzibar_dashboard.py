@@ -475,7 +475,7 @@ elif page == "🚦 Early Warning Tool":
         st.info(f"📅 Season: **{season}**")
 
     score = compute_risk_score(temp_anom, rainfall, heat_idx, cholera, malaria)
-    color, level = get_alert_level, label = get_alert_color(score)
+    color, label = get_alert_color(score)  # ✅ Fixed!
 
     st.markdown("---")
     st.subheader("🎯 Risk Assessment Result")
