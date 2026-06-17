@@ -48,20 +48,25 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
+
+import os
+
+# Get the absolute path of the directory where this script runs
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
 # ── Load data ────────────────────────────────────────────────
 @st.cache_data
 def load_data():
+    # Construct the absolute path to your file inside data/clean/
+    data_path = os.path.join(BASE_DIR, "data", "clean", "zanzibar_full_risk_dataset.csv")
+    
     try:
-        df = pd.read_csv("zanzibar_full_risk_dataset.csv", parse_dates=["date"])
-    except:
-        try:
-            df = pd.read_csv("/kaggle/working/data/clean/zanzibar_full_risk_dataset.csv",
-                             parse_dates=["date"])
-        except:
-            st.error("Data file not found. Please run Cell 8 first.")
-            st.stop()
+        df = pd.read_csv(data_path, parse_dates=["date"])
+    except FileNotFoundError:
+        st.error(f"Data file not found at: {data_path}. Please check your GitHub folder structure.")
+        st.stop()
     return df
-
+    
 @st.cache_data
 def load_districts():
     district_data = pd.DataFrame([
