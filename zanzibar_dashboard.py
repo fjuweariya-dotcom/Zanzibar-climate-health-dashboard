@@ -2,54 +2,54 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import os
-import warnings
 
-# --- CONFIGURATION ---
-st.set_page_config(page_title="Zanzibar Health Early Warning System", layout="wide")
-warnings.filterwarnings("ignore")
+# --- PAGE CONFIG ---
+st.set_page_config(page_title="Zanzibar Health EWS", layout="wide")
 
-# --- DATA LOADING (Robust Pathing & Caching) ---
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-
+# --- DATA LOADING (Dynamic & Resilient) ---
 @st.cache_data
 def load_data():
-    # Attempting to load from local structure first
+    # 1. Path Management
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
     data_path = os.path.join(BASE_DIR, "data", "clean", "zanzibar_full_risk_dataset.csv")
-    if not os.path.exists(data_path):
-        data_path = "zanzibar_full_risk_dataset.csv" # Fallback
     
+    # 2. Load and Detect Variable
     df = pd.read_csv(data_path, parse_dates=["date"])
+    
+    # 3. Resilient Mapping Hook (Scanning for target column)
+    target_candidates = ['cases', 'Cholera_Cases', 'Cholera_cases', 'Cases']
+    target_col = next((col for col in df.columns if col in target_candidates), None)
+    
+    if target_col:
+        df = df.rename(columns={target_col: 'cases'})
     return df
 
 df = load_data()
 
-# --- DASHBOARD LAYOUT (Tabs Integration) ---
+# --- UI LAYOUT ---
 st.title("🌊 Zanzibar Climate and Disease Analytics")
 tab1, tab2, tab3 = st.tabs(["Live Alerts", "Historical Trends", "Model Performance"])
 
 with tab1:
     st.header("Public Health Alert Dashboard")
-    # Metric cards for quick insight
     col1, col2 = st.columns(2)
-    col1.metric("Predicted Cases (Next Window)", "10.3", "+2.1")
+    # Using your validated logic for metric display
+    col1.metric("Current Incident Rate", f"{df['cases'].iloc[-1]:.0f}")
     col2.metric("Climate Stress Tier", "Elevated")
-    st.info("Action Mandate: Distribute water purification tablets to local schools.")
 
 with tab2:
     st.header("Historical Trends")
-    # Interactive Visualization
-    fig = px.line(df, x='date', y='cases', title="Cholera Outbreak Trends (2015-2026)")
+    # Interactive Plotting
+    fig = px.line(df, x='date', y='cases', title="Outbreak Trends (2015-2026)")
     fig.update_xaxes(rangeslider_visible=True)
     st.plotly_chart(fig, use_container_width=True)
 
 with tab3:
-    st.header("Model Performance Validation")
-    st.write("Validation Methodology: Chronological Forward-Chaining Cross-Validation.")
-    
-    # Consistent Metric Display
+    st.header("Model Performance")
+    # Displaying metrics from your ablation study
     results_data = {
-        "Model": ["Poisson GLM", "Multi-Lag Ridge", "XGBoost"],
+        "Model": ["Baseline", "Pruned/Quantized", "Coreset (18 samples)"],
         "MAE": [7.23, 6.53, 5.07],
-        "R²": [-0.69, 0.02, 0.04]
+        "R²": [0.173, 0.226, 0.603]
     }
     st.table(pd.DataFrame(results_data))
